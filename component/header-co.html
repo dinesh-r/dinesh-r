@@ -1,0 +1,79 @@
+
+    <nav class="app-navbar navbar navbar-expand-xl navbar-dark fixed-top" role="navigation"
+        aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="/co/" aria-label="Colorado Home">
+                <div class="logo-icon" aria-hidden="true">
+                    <img src="/shared-assets/images/Logo.svg" alt="HMS Logo" />
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="/co/" role="menuitem">About Us</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="/co/overview.html" role="menuitem">Overview</a>
+                    </li>
+                    <li class="nav-item dropdown" role="none">
+                        <a class="nav-link dropdown-toggle" 
+                           href="#" 
+                           role="menuitem" 
+                           id="processMenu" 
+                           aria-expanded="false" 
+                           aria-haspopup="menu"
+                           aria-label="Process menu">
+                            Process
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="processMenu">
+                            <li role="none"><a class="dropdown-item" href="/co/automated-review.html" role="menuitem" tabindex="-1">Automated Review</a></li>
+                            <li role="none"><a class="dropdown-item" href="/co/complex-review.html" role="menuitem" tabindex="-1">Complex Review</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="/co/scenarios.html" role="menuitem">Scenarios</a>
+                    </li>
+                    <li class="nav-item dropdown" role="none">
+                        <a class="nav-link dropdown-toggle" 
+                           href="#" 
+                           role="menuitem" 
+                           id="resourcesMenu" 
+                           aria-expanded="false" 
+                           aria-haspopup="menu"
+                           aria-label="Resources menu">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="resourcesMenu">
+                            <li role="none"><a class="dropdown-item" href="/co/training.html" role="menuitem" tabindex="-1">Training</a></li>
+                            <li role="none"><a class="dropdown-item" href="/co/policies-regulation.html" role="menuitem" tabindex="-1">Policies &
+                                    Regulations</a>
+                            </li>
+                            <li role="none"><a class="dropdown-item" href="/co/faqs.html" role="menuitem" tabindex="-1">FAQs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="/co/contact-us.html" role="menuitem">Contact Us</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="btn primary-btn font-sm sign-in-btn" 
+                           aria-label="Sign in to HMS Portal"
+                           href="https://hmsportal.hms.com/" 
+                           target="_blank"
+                           role="menuitem" rel="noopener noreferrer">Sign in to HMS Portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Screen reader live region for announcements -->
+    <div aria-live="polite" aria-atomic="true" class="sr-only" id="navAnnouncer"></div>
